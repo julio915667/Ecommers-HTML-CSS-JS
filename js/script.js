@@ -83,29 +83,6 @@ function crearCards() {
   agregarFuncionalidad();
 }
 
-//----------------------------------------EVENTOS------------------------------------------//
-/*let btnCar = document.querySelectorAll(".btnCarrito")
-
-console.log(btnCar);
-for(let i=0;i<btnCar.length;i++){
-  
-     btnCar[i].addEventListener("click",function(){
-          this.innerHTML ="Agregado al Carrito"
-          this.style.backgroundColor= "red"
-          this.style.fontWeight="bold"
-          this.style.color="white"
-          alertCart()
-          btnCar[i].addEventListener("mouseout",function(){
-               this.innerHTML ="Agregar al Carrito"
- this.style.backgroundColor= "#0d6efd"
-          this.style.fontWeight="300"
-          this.style.color="white"
-          })
-     })
-    
-}*/
-
-
 
 function agregarFuncionalidad() {
    dateOfProducts.forEach((prod) => {
@@ -215,14 +192,6 @@ function sumShopCartTotal(){
   shoppingCartTotal.innerHTML = `${total.toFixed(2)}$`;
 }
 
-/*const buttonComprar= document.querySelector(".comprarButton")
-buttonComprar.addEventListener("click",()=>{
-  
- 
-})
-*/
-
-  
 const alertErrorComprar = ()=> {
   Swal.fire({
     icon: 'error',
