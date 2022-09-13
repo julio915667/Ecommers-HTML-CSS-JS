@@ -85,8 +85,6 @@ function crearCards() {
 }
 
 
-
-
 function agregarFuncionalidad() {
    dateOfProducts.forEach((prod) => {
     document
@@ -195,8 +193,6 @@ function sumShopCartTotal(){
   shoppingCartTotal.innerHTML = `${total.toFixed(2)}$`;
 }
 
-
-  
 const alertErrorComprar = ()=> {
   Swal.fire({
     icon: 'error',
