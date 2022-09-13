@@ -117,7 +117,7 @@ footer .redesSociales--icons{
   section.sectionShoping{
     background-color:#212529;
   }
-  section[class="sectionShoping"] div{
+  section[class="sectionShoping headline"] div{
     background-color:#212529;
     color:#fff;
   }
